@@ -1,7 +1,7 @@
 {
   "name": "react-single-balloon",
-  "version": "1.0.0",
-  "description": "Made with create-react-library",
+  "version": "1.0.4",
+  "description": "Floating color balloons with custom size and color.",
   "author": "amitvchaudhary",
   "license": "MIT",
   "repository": "amitvchaudhary/react-single-balloon",
@@ -12,7 +12,7 @@
     "node": ">=10"
   },
   "scripts": {
-    "build": "microbundle-crl --no-compress --format modern,cjs",
+    "build": "microbundle-crl --compress --no-sourcemap --format modern,cjs",
     "start": "microbundle-crl watch --no-compress --format modern,cjs",
     "prepare": "run-s build",
     "test": "run-s test:unit test:lint test:build",
@@ -64,5 +64,16 @@
   "dependencies": {
     "mo-js": "^0.288.2",
     "styled-components": "^5.3.5"
-  }
+  },
+  "keywords": [
+    "react",
+    "balloons",
+    "floating",
+    "birthday",
+    "animation",
+    "colorful",
+    "pop",
+    "burst",
+    "single"
+  ]
 }
