@@ -10,6 +10,9 @@
 npm install --save react-single-balloon
 ```
 
+## Demo
+https://amitvchaudhary.github.io/react-single-balloon/
+
 ## Usage
 
 ```tsx
