@@ -24,7 +24,7 @@ const Balloon = (props: Props) => {
   } = props
 
   const [show, setShow] = React.useState(true)
-  const delay = random(0, 4)
+  const delay = 0;
   const duration = 10 + random(1, 5)
   const left = random(10, 70) // random init left value to fly
 
